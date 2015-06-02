@@ -1,0 +1,4 @@
+Explique cuáles son los modos de programación en Python.
+
+1-Modo Interactivo.
+2-Normal.
