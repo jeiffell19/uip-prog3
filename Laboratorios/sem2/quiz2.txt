@@ -1,4 +1,5 @@
 Explique cuáles son los modos de programación en Python.
 
-1-Modo Interactivo.
-2-Normal.
+1-Modo Interactivo:Los comandos son ingresados desde una terminal, sirve para evaluar prototipos. 
+
+2-Normal:Esta es la manera tradicional de programar. Se pueden correr los archivos .py
