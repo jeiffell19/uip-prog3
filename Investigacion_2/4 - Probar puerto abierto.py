@@ -16,4 +16,3 @@ for puerto in range(int(uno),int(dos)):
  
     except :
         print ("Puerto "+str(puerto)+" cerrado.")
-

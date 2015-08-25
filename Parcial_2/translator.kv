@@ -1,0 +1,35 @@
+#:import RiseInTransition kivy.uix.screenmanager.RiseInTransition
+
+<Translation>:
+	transition: RiseInTransition()	
+	sp:sp
+	eng:eng
+	Screen:		
+		BoxLayout:
+			orientation: 'vertical'
+
+			GridLayout:
+				cols: 2
+				rows: 2
+				Label:
+					text: 'SPANISH - ESPANOL:'
+
+				TextInput:
+					id: sp
+					multiline: False
+					padding: [10, 0.5 * (self.height - self.line_height)]
+
+				Label:
+
+					text: 'ENGLISH - INGLES:'
+
+				TextInput:
+					id:eng
+					multiline: False
+					padding: [10, 0.5 * (self.height - self.line_height)]
+
+			Button:
+				text: 'TRADUCIR - TRANSLATE'
+				on_press: 
+					root.translator()
+
